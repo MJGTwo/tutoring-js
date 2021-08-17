@@ -8,6 +8,7 @@
   "repository": "https://github.com/MJGTwo/tutoring-js.git",
   "author": "MJGTwo <gardner.j.michael@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "test": "jest"

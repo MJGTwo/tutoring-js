@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+export const greeter = () => {
+  return "Hello, World!";
+};
