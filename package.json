@@ -1,10 +1,17 @@
 {
   "name": "tutoring",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=14"
+  },
   "main": "index.js",
   "repository": "https://github.com/MJGTwo/tutoring-js.git",
   "author": "MJGTwo <gardner.j.michael@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
   "dependencies": {
     "util": "^0.12.4"
   },
